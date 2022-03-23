@@ -1,0 +1,146 @@
+  /* Trang Menu */
+.container{width:100% ; margin: 10px;height: auto; }
+ .container  header{ height: 350px; background:url(images/hinh-anh-doi-tuyen-viet-nam.jpg) ; background-size: 100% 100%;  }       
+ .container  nav   { height: 80px; background:url(images/Menu.jfif); }
+ .container  main  article{ width: 75%; min-height:1000px; float: left;  background:url(images/body\ back\ red.jpg) ;}
+  .container  main  aside{ width: 24%; min-height:500px; float: right; background-image: url(images/anh-background-mau-cam_052540434.jpg);}
+ .container  footer{ min-height: 60px;  clear: both;    background:palegreen;  border-top: 5px ;}
+ /* menu*/
+ ul{margin: 0;padding: 0;} 
+ ul li{list-style: none;float: left;padding-left: 10px;padding-right: 10px;padding: 15px 20px;position: relative;bottom: 10px;}
+ ul li ul{display: none;background-color: red;position: absolute;}
+ ul li a{text-decoration: none;color:#fff;font-weight: bolder;font-size: 1.5em;}
+ul li:hover ul{padding: 5px 0 5px 10px;width: 300px;border-radius: 5px;display: block;position: absolute;float: none;height: auto;box-shadow:0 0 1px #000;border: none;border-bottom:1px solid #000 ; }
+ul li ul li{float:none;}
+#tim{height: 5%;width: 80%;margin-left: 10%;}
+ul li a:hover{font-size: 1.9em;color: #000;transition: 0.4;  }
+ .container  nav marquee{ text-transform: capitalize; height: 30px;font-style: italic;  color: white;  font-size: 15px;}
+.container footer p{color: purple;text-align: center; text-decoration: unset; padding: 10px;  font-weight: bold;}
+.hinhanh img{float: center; background-color: khaki; width: 600px;height:450 ; padding: 20px; margin: 20px; display: block; margin-left: auto; margin-right: auto;}
+.hinhanh h1{ text-transform: capitalize; text-align: center;font-size: 50px; color: white;background-color: black;}
+.hinhanh h3{ text-align: center;font-size: 30px; color: yellow;}
+.bosung marquee{ font-size: 25px;  font-weight: bolder;  color: red;  background-color:yellow ;  height: 30px;}
+.bosung h2{color: seashell; font-size: 50px; text-align: center;}
+.bosung div i{font-size: 30px;color: #000;   padding: 5px;  margin:5px;}
+.trangchu i{ background:url(images/back\ tragchu.jpg) ;  font-size: 50px; color: skyblue; font-weight: bolder; padding: 20px; margin: 10px; border-radius: 100px;
+}
+.trangchu i:hover{ color:brown;}
+.gt{ background-color: white; padding: 20px;  margin-top: 20px;text-align: center;}
+
+
+  
+ 
+
+/* Trang Tin Tức */
+
+.tieude  i{ background:url(images/back\ tragchu.jpg) ;  font-size: 50px;  color: skyblue;font-weight: bolder;   padding: 20px;   margin: 10px;   border-radius: 100px;}
+.tieude i:hover{color:brown;}
+.tieude h2{ background-color: black;  color: cornsilk;  text-align: center;  font-weight: bolder;  font-size: 40px;  clear: both;margin-top: 10px;}
+.tinmoi img{ width: 100%;  height: 200px;}
+.tinmoi{width: 35%;min-height: 500px ; background-color:white ;  padding: 20px;  margin: 30px;  border-radius: 20px;  float: left;margin-left: 75px;}
+.tieude:after{ display: table;  clear: both;}
+.tinmoi h3{ font-size: 25px; font-weight: bolder;}
+
+
+
+
+      
+/* Trang Giới Thiệu*/
+
+.bongdavn{ font-size: 30px;  color: white;  text-align: center;  background-color: black;}
+.thongtin { min-height: 500px; width: 600px; background: blanchedalmond; text-align: center; display: block; margin-left: auto; margin-right: auto; font-weight: bolder;}
+.thanhtich { min-height: 500px;  width: 600px;  background: blanchedalmond;  text-align: center;  display: block;  margin-left: auto;  margin-right: auto;  font-weight: bolder;}
+.thongtin h3{  font-size: 40px;}
+.thanhtich h3{  font-size: 40px;}
+.thanhtich img{  height: 500px;  width: 500px;}
+
+
+
+
+/* Trang gallery*/
+  
+.khoanhkhac {margin-left: 70px; text-align: center;  min-height: 300px;  width: 350px;  background: blanchedalmond;  text-align: center;   font-weight: bolder; border-radius: 20px; padding: 50px;float: left;margin-bottom: 20px;margin-top: 20px; }
+.khoanhkhac img{  height: 250px;  width: 90%;}
+
+
+
+
+/* Trang liên hệ */
+     
+.lienhe h3{ background:darkseagreen;font-size: 50px;}
+.lienhe{  background: lightgray;  min-height:500px ;  width: 700px;  display: block;  margin-left: auto;  margin-right: auto;  text-align: center;  padding: 50px; border-radius: 50px;}
+
+    
+/* Trang video */
+
+
+#videohay{background-color: aquamarine;width: 100%;min-height: auto;text-align: center;margin: auto;border: 2px solid black;}
+#name{background-image: linear-gradient(red,yellow) ;color:blue;line-height: 70px;padding: 0; margin: 0; font-size: 2.5em;font-weight: bolder; letter-spacing: 2px;font-style: italic;  }
+#cottrai{width: 75%;min-height: 500px;background-image: linear-gradient(green,pink);float: left; }
+#cotphai{width: 25%;min-height: 500px;background-image: linear-gradient(red , black);float: right;  }
+#hl{position: relative; top: 20px }
+.ima{ width: 100%;height: 200px;margin: 0;padding: 0;   }
+
+
+
+
+
+
+
+
+ 
+
+/* Trang sản phẩm*/ 
+
+.sanpham {height: 500px; width:36%; float:left;background-color: #fff;margin-left: 100px;border-radius: 5px;border: 1px solid tomato;}
+.prod { position:relative;height: 100%;}
+.prod > .image{
+  max-width: 50%%; height:50%; margin-bottom: 10px;margin-left: auto; margin-right:auto;display:block;
+}
+.prod>.name {font-size: 1.8em;text-align: center; color:orangered; font-variant: small-caps;margin:5px;padding: 10px;font-weight: bold;padding-right: 50px; }
+.prod >.price{
+  position: relative; text-align: center; bottom: 0px;
+  font-family: Impact; font-size: 20px;
+}
+#sp{position: relative;top: 20px;}
+.prod>.new-icon{
+  position: absolute; right:5px; top:5px;height: 50px;width: 50px;
+}
+#mua{ position: absolute;right: 40%;bottom: 10px; height: 15%;width: 25%;}
+
+
+/* Login*/
+.loginbox{ width: 320px;height: 420px;background-color: #000;color: #fff;position: relative;top:100px;left: 30%;padding: 70px 40px;border-radius: 50px;}
+.avt{ height: 100px;width: 100px;border-radius: 50%;position: relative;top:-20px;left:calc(50% - 50px);}
+h1{margin: 0; padding: 0 0 20px;text-align: center;font-size: 40px;font-weight: bolder;}
+.loginbox p{margin: 0;padding: 0;font-weight: bold;}
+.loginbox input{width: 100%;margin-bottom: 20px;}
+.ip{border: none;outline: none;border-bottom: 1px solid #fff;background: transparent;height: 40px;color: #fff;font-size:16px;}
+.bt{border: none;outline: none;height: 40px;width: 100%;background:red;color: #fff;font-size: 18px;border-radius: 20px;}
+.bt:hover{background: yellow;color: #fff;cursor: pointer;}
+.loginbox a{text-decoration: none;font-size: 14px;line-height: 25px;color: burlywood;display: block; }
+a:hover{color: #fff;}
+#b{ width: 10px;margin-left: 5px;}
+
+
+/* Đăng kí */
+.formdki{ width: 80%;height: auto;background-color: #000;color: #fff;position: relative;top: 90px;left:5%;padding: 50px 50px;border-radius: 50px;}
+.dkavt{ height: 100px;width: 100px;border-radius: 50%;position: relative;top: -20px;left: 45%;}
+.formdki p{margin: 0;padding: 0;font-weight: bold;}
+.formdki input{width: 80%;margin-bottom: 20px;}
+#a{width: 10px;margin-left: 5px;}
+.formdki a{text-decoration: none;font-size: 14px;line-height: 25px;color: burlywood;display: block; }
+a:hover{color: #fff;}
+.formtim{ width: 100px;position: absolute;right: 10px;}
+
+/* media */
+#media{ width: 100%;margin-left: auto;margin-right: auto;display: block;border: 5px solid tomato;padding: 0;margin: 0;background-color: #fff;}
+      .td{ background-image: linear-gradient(yellow,pink);height: 50px;width: 100%;font-size: 1.5em;font-weight: bolder;color:blue;text-align: center;padding-top: 20px;font-style: italic;}
+      .bando{ border: 1px solid  slateblue;height: 600px;width:100%;}
+      .b1{float:left;height: 600px;width: 50%;}
+      .b2{height: 600px;width: 50%;}
+
+
+
+
+
